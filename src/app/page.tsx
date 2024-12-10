@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import Footer from "./components/Footer";
@@ -15,7 +15,14 @@ export default function Home () {
         <div className="text-center ">
           <h1 className="text-lg font-semibold mb-4">Hello Nike App</h1>
           <p className="text-md font-medium mb-3">Download yhe app access everthing Nike . <b className="underline cursor-pointer font-semibold">Get Your Great</b></p>
-          <section className="h-[700px] w-[1330px]"><img src="/nike-shoes.png"  alt="Nike Shoes" /></section>
+          <section className="h-[700px] w-[1330px]">
+          <Image className='h-80 w-80'
+  src="/nike-shoes.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+          </section>
         </div>
 
 
@@ -41,7 +48,14 @@ export default function Home () {
           </section>
           {/*   IMAGE 1 */}
           <div className="gap-2 flex">
-            <section  className="h-[510px] w-[441px] border-2 bg-gray-50"><img src="/women-shoes.png" alt="Womens Shoes" className="h-[441px] w-[441px]" />
+            <section  className="h-[510px] w-[441px] border-2 bg-gray-50">
+              {/* <img src="/women-shoes.png" alt="Womens Shoes" className="h-[441px] w-[441px]" /> */}
+              <Image className='h-80 w-80'
+  src="/women-shoes.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max Pulse</h3>
             <p className="ml-[250px]">13 995</p></div>
@@ -50,7 +64,14 @@ export default function Home () {
             </section>
               {/* IMAGE 2 */}
             <div className="gap-2 flex">
-            <section  className="h-[510px] w-[441px] border-2 bg-gray-50"><img src="Mens-shoes.png" alt="Mens Shoes" className="h-[441px] w-[441px]" />
+            <section  className="h-[510px] w-[441px] border-2 bg-gray-50">
+              {/* <img src="Mens-shoes.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
+              <Image className='h-80 w-80'
+  src="/Mens-shoes.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max Pulse</h3>
             <p className="ml-[250px]">13 995</p></div>
@@ -59,7 +80,14 @@ export default function Home () {
             </section>
             {/* IMAGE 3 */}
             <div className="gap-2 flex">
-            <section  className="h-[510px] w-[441px] border-2 bg-gray-50"><img src="mens-shoes-2.png" alt="Mens Shoes" className="h-[441px] w-[441px]" />
+            <section  className="h-[510px] w-[441px] border-2 bg-gray-50">
+              {/* <img src="mens-shoes-2.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
+              <Image className='h-80 w-80'
+  src="/mens-shoes-2.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max 97 SE</h3>
             <p className="ml-[250px]">16 995</p></div>
@@ -78,7 +106,13 @@ export default function Home () {
         {/*       HOME PAGE PART THREE */}
         <div className="p-5 mt-20 mb-20">
           <h2 className="weight-500 text-[22px]">Featured</h2>
-          <img src="mens-pic.jpeg" className="w-[1344px] h-[700px] mt-5 mb-20"/>
+          {/* <img src="mens-pic.jpeg" className="w-[1344px] h-[700px] mt-5 mb-20"/> */}
+          <Image className='h-80 w-80'
+  src="/mens-pic.jpeg" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
           <section className="text-center">
           <h1 className="weight-500 text-[54px]">STEP INTO WHAT FEELS GOOD</h1>
           <p className="text-[15px] weight-400">Cause eveyone should know the feeling of running in that perfect pair</p>
@@ -91,7 +125,14 @@ export default function Home () {
        <div className="flex gap-5 p-5">
         <section className="h-[470px] w-[669px]  flex  px-5 py-5">
           
-          <div><img src="tea-shirt-1.png" alt="" />
+          <div>
+            {/* <img src="tea-shirt-1.png" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/tea-shirt-1.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
           <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5">Nike Dri FIT ADV TechKnit Ultra</h1><p className="mt-5 ml-5"> 3 895</p></section>
 
@@ -100,7 +141,13 @@ export default function Home () {
           </div>
 
           <div>
-            <img src="chadda.png" alt="" />
+            {/* <img src="chadda.png" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/chadda.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
             <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5">Nike Dri FIT Challenger</h1><p className="mt-5 ml-9"> 2 495</p></section>
 
@@ -117,7 +164,14 @@ export default function Home () {
       
         <section className="h-[470px] w-[669px] gap-5  flex px-5 py-5">
           
-          <div><img src="female-t-shirt.png" alt="" />
+          <div>
+            {/* <img src="female-t-shirt.png" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/female-t-shirt.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
           <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5">Nike Dri FIT ADV TechKnit Ultra</h1><p className="mt-5 ml-5"> 5 295</p></section>
 
@@ -126,7 +180,13 @@ export default function Home () {
           </div>
 
           <div>
-            <img src="trowser.png" alt="" />
+            {/* <img src="trowser.png" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/trowser.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
             <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5">Nike Fast</h1><p className="mt-5 ml-9"> 3 795</p></section>
 
@@ -149,7 +209,13 @@ export default function Home () {
          {/* HOME PAGE PART 4 */}
     <div className="p-5">
     <h1 className="text-[22px] weight-500">Don't Miss</h1>
-    <img  className="h-[700px] w-[1344px]" src="part-4-img.png" alt="" />
+    {/* <img  className="h-[700px] w-[1344px]" src="part-4-img.png" alt="" /> */}
+    <Image className='h-80 w-80'
+  src="/part-4-img.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
     </div>
 
 
@@ -163,10 +229,34 @@ export default function Home () {
 
             {/*HOME PAGE PART 6  */}
         <h1 className="text-[23px] weight-600 font-semibold p-5">The Essentials</h1>
-        <div  className="flex p-5 gap-2">
-          <section ><img src="part-5-1.png " className="cursor-pointer" alt="" /></section>
-          <section ><img src="part-5-2.png " className="cursor-pointer" alt="" /></section>
-          <section ><img src="part-5-3.png " className="cursor-pointer" alt="" /></section>
+        <div  className="flex p-5 gap-10 ml-20">
+          <section >
+            {/* <img src="part-5-1.png " className="cursor-pointer" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/part-5-1.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+            </section>
+          <section >
+            {/* <img src="part-5-2.png " className="cursor-pointer" alt="" /> */}
+            <Image className='h-80 w-80'
+  src="/part-5-2.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+          </section>
+          <section >
+            {/* <img src="part-5-3.png " className="cursor-pointer" alt="" /> */}<Image className='h-80 w-80'
+  src="/part-5-3.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+
+            </section>
         </div>
 
         {/* HOME PAGE PART 7 */}

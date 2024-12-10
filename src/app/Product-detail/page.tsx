@@ -2,6 +2,7 @@ import React from 'react'
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Image from 'next/image';
 
 
 const Details = () => {
@@ -9,7 +10,15 @@ const Details = () => {
     <div>
       <Navbar/>
       <div className='flex gap-32 mb-[200px]'> 
-      <section><img src="detail-pg.png" className="mt-[50px] ml-20" alt="" /></section>
+      <section>
+        {/* <img src="detail-pg.png" className="mt-[50px] ml-20" alt="" /> */}
+        <Image className='h-80 w-80'
+  src="/detail-pg.png" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+        </section>
       <section className='mt-[150px]'>
         <h1 className='text-5xl font-semibold mb-8'>Nike Air Force 1 <br />PLT.AF.ORM</h1>
         <p className='text-[15px] weight-400 w-[374px] h-[180px] mb-5'>

@@ -23,7 +23,7 @@ const Prodct = () => {
       {/* LEFT SECTION */}
       <div>
 
-    <div className='font-semibold text-[15px] cursor-pointer grid gap-5 ml-7 '>
+    <div className='font-semiboldtext-[15px] cursor-pointer grid gap-5 ml-7 '>
       <p>Shoes</p>
       <p>Sports Bras</p>
       <p>tops & T-Shirts</p>

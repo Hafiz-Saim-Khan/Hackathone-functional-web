@@ -4,6 +4,7 @@ import { GoTrash } from "react-icons/go";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Link from "next/link"
+import Image from 'next/image';
 
 const Men = () => {
   return (
@@ -19,7 +20,15 @@ const Men = () => {
             <h1 className='weight-500 text-[22px]'>Bag</h1>
             {/* AB YAHAN AIK DIV BANEGA JISME 3 SECTION HONGE */}
        <div className='flex'>
-         <section><img src="banda.jpeg" alt="Shirt" className='h-[150px] w-[150px]' /></section>
+         <section>
+          {/* <img src="banda.jpeg" alt="Shirt" className='h-[150px] w-[150px]' /> */}
+          <Image className='h-80 w-80'
+  src="/banda.jpeg" 
+  alt="Shoes" 
+  width={200}
+  height={200}
+  layout="responsive" />
+          </section>
          <section className='h-[170px] text-[15px]  w-[300px]'>
             <p>Nike Dri-FIT ADV TechKnit Ultra</p>
             <p className='text-[#8d8d8d]'>Men's Short-Sleeve Running Top</p>
