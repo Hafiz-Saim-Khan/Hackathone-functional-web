@@ -10,7 +10,7 @@ const Men = () => {
   return (
     <div>
       <Navbar/>
-       <div className='flex  gap-6 pl-[300px]'>
+       <div className='sm:flex md:flex lg:flex xl:flex  sm:pl-10 pl-2 gap-6 md:pl-[50px] lg:pl-[400px] xl:pl-[400px]'>
           <section>
             <h1 className='font-semibold weight-500 text-sm'>Free Delievery</h1>
             <div className='flex gap-5'>
@@ -19,8 +19,8 @@ const Men = () => {
             </div>
             <h1 className='weight-500 text-[22px]'>Bag</h1>
             {/* AB YAHAN AIK DIV BANEGA JISME 3 SECTION HONGE */}
-       <div className='flex'>
-         <section>
+       <div className='md:flex flex-wrap'>
+         <section className='h-[300px] w-[300px]'>
           {/* <img src="banda.jpeg" alt="Shirt" className='h-[150px] w-[150px]' /> */}
           <Image className='h-80 w-80'
   src="/banda.jpeg" 
@@ -29,7 +29,7 @@ const Men = () => {
   height={200}
   layout="responsive" />
           </section>
-         <section className='h-[170px] text-[15px]  w-[300px]'>
+         <section className=' h-[170px] text-[15px]  w-[300px]'>
             <p>Nike Dri-FIT ADV TechKnit Ultra</p>
             <p className='text-[#8d8d8d]'>Men's Short-Sleeve Running Top</p>
             <p className='text-[#8d8d8d]'>Ashen Slate/Cobalt Bliss</p>
@@ -66,7 +66,7 @@ const Men = () => {
     </div>
 
     {/* SECTION KE NEESCHE WALA HISSA */}
-    <div className='flex pl-[450px]'>
+    <div className=' pl-5 flex lg:pl-[450px] xl:pl-[450px]'>
     <section className=' text-[15px]'>
             <p>Nike Air Max 97 SE</p>
             <p className='text-[#8d8d8d]'>Men's Shoes</p>

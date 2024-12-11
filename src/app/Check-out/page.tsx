@@ -15,9 +15,9 @@ const Checkout = () => {
         <p><IoBagOutline className='h-5 w-5 ml-7'/> </p>
       </div> 
 
-    <div className=' h-[2000px] flex gap-20'>
+    <div className=' h-[4000px] lg:flex xl:flex gap-20'>
      
-        <div className='h-[208px] ml-[300px] w-[440px] '>
+        <div className='h-[208px] lg:ml-[300px] ml-5 xl:ml-[300px] w-[440px] '>
         <h1 className='font-semibold'>How would you like to get your order?</h1>
             <section className=' text-[#7e7e7e] weight-400 text-[16px] '>
              <p>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information.</p>

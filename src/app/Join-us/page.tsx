@@ -13,7 +13,7 @@ const Join = () => {
       <Navbar/>
     <div>
       
-      <div className='h-[833px] w-[380px] p-4 bg-gray-100 mb-[200px] ml-[400px]'>
+      <div className='h-[833px] w-[380px] p-4 bg-gray-100 mb-[200px] sm:ml-20 md:ml-44 ml-10 xl:ml-[400px]'>
         <section>
     <SiNike  className="h-10 w-16  text-black ml-[150px]"/>
     <h1 className="text-[18px] font-bold mb-8">BECOME A NIKE MEMBER</h1>

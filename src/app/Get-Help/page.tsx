@@ -23,7 +23,7 @@ const Help = () => {
       {/* YAHAN AIK DIV BANAYA JIS ME 2 SECTION BANAYE HAI LEFT OR RIGHT  */}
       <div className='flex gap-8'>
         {/* LEFT SECTION */}
-        <section className='h-[1024px] w-[939px] border-2 border-gray-100 pr-4'>
+        <section className='h-[1024px] w-[939px] border-2 flex-wrap border-gray-100 pr-4'>
             <h1 className='text-3xl font-semibold '>WHAT PAYMENT OPTION CAN I USE ON NIKE ORDERS ?</h1>
             <p className='weight-400 text-[15px]'>We want to make buying your favourite Nike shoes and gear online fast and easy, and we accept the following payment options:</p>
             <div className='weight-400 my-7 ml-10 text-[15px]'>
