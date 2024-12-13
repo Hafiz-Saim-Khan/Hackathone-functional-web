@@ -1,4 +1,4 @@
-import Image from "next/image";
+    import Image from "next/image";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import Footer from "./components/Footer";
@@ -59,7 +59,7 @@ export default function Home () {
   layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max Pulse</h3>
-            <p className=" sm:ml-[250px] ml-20  md:ml-[250px] lg:ml-[80px] xl:ml-[250px]">13 995</p></div>
+            <p className=" sm:ml-[250px] ml-20  md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">13 995</p></div>
             <p className="text-[#757575] weight-400 text-sm">Women's shoes</p>
             
             </section>
@@ -75,7 +75,7 @@ export default function Home () {
   layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px] ">Nike Air Max Pulse</h3>
-            <p className=" sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[250px]">13 995</p></div>
+            <p className=" sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">13 995</p></div>
             <p className="text-[#757575] weight-400 text-sm">Men's shoes</p>
             
             </section>
@@ -91,7 +91,7 @@ export default function Home () {
   layout="responsive" />
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max 97 SE</h3>
-            <p className="sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[250px]">16 995</p></div>
+            <p className="sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">16 995</p></div>
             <p className="text-[#757575] weight-400 text-sm">Men's shoes</p>
             
             </section>

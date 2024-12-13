@@ -5,7 +5,7 @@ import Link from "next/link"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import React from 'react'
+import React from "react"
 
 const Join = () => {
   return (
@@ -13,7 +13,7 @@ const Join = () => {
       <Navbar/>
     <div>
       
-      <div className='h-[833px] w-[380px] p-4 bg-gray-100 mb-[200px] sm:ml-20 md:ml-44 ml-10 xl:ml-[400px]'>
+      <div className="h-[833px] w-[380px] p-4 bg-gray-100 mb-[200px] sm:ml-20 md:ml-44 ml-10 xl:ml-[400px]">
         <section>
     <SiNike  className="h-10 w-16  text-black ml-[150px]"/>
     <h1 className="text-[18px] font-bold mb-8">BECOME A NIKE MEMBER</h1>
@@ -36,7 +36,7 @@ const Join = () => {
           <section className="flex  text-[#8d8d8d] gap-4 text-[12px] text-center">
         <input type="checkbox" /><p>Sign up for emails to get updates from Nike on <br /> products, offers and your Members bemefits</p></section>
         <section className="flex text-[#8d8d8d] text-[12px] ml-5 gap-2 mt-5">
-        <p>By creating an accont, you agree to Nike's </p><p className="underline font-semibold "> Privacy </p></section>
+        <p>By creating an accont, you agree to Nike"s </p><p className="underline font-semibold "> Privacy </p></section>
         <section className="flex text-[#8d8d8d] ml-5 pl-14 gap-2 text-[12px]">
           <p className="underline font-semibold"> Policy</p> and
           <p className="underline font-semibold"> Terms of Use </p>
