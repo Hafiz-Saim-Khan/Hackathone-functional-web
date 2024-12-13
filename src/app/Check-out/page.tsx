@@ -4,22 +4,23 @@ import { SiNike } from "react-icons/si";
 import { IoBagOutline } from "react-icons/io5";
 import { LuMessageSquareText } from "react-icons/lu";
 import { FaLocationPin } from "react-icons/fa6";
+import Image from 'next/image';
 
 const Checkout = () => {
   return (
     <div>
-         <div className='flex'>
-        <p><SiNike className='h-10 mr-[500px] w-20'/></p>
-        <p className='ml-[500px]'>000 800 100 9538</p>
-        <p><LuMessageSquareText className='h-5 w-5 ml-7'/></p>
-        <p><IoBagOutline className='h-5 w-5 ml-7'/> </p>
+         <div className="flex">
+        <p><SiNike className="h-10 mr-[500px] w-20"/></p>
+        <p className="ml-[500px]">000 800 100 9538</p>
+        <p><LuMessageSquareText className="h-5 w-5 ml-7"/></p>
+        <p><IoBagOutline className="h-5 w-5 ml-7"/> </p>
       </div> 
 
-    <div className=' h-[4000px] lg:flex xl:flex gap-20'>
+    <div className=" h-[4000px] lg:flex xl:flex gap-20">
      
-        <div className='h-[208px] lg:ml-[300px] ml-5 xl:ml-[300px] w-[440px] '>
-        <h1 className='font-semibold'>How would you like to get your order?</h1>
-            <section className=' text-[#7e7e7e] weight-400 text-[16px] '>
+        <div className="h-[208px] lg:ml-[300px] ml-5 xl:ml-[300px] w-[440px]" >
+        <h1 className="font-semibold">How would you like to get your order?</h1>
+            <section className=" text-[#7e7e7e] weight-400 text-[16px] ">
              <p>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information.</p>
              <button className='underline'>Learn More</button>            
             </section>
@@ -140,7 +141,12 @@ const Checkout = () => {
             <p>Privacy Policy</p>
         </div>
         <div>
-          <img src="footer.png" alt="" />
+        <Image
+  src="/footer.png" 
+  alt="Shoes" 
+  width={100}
+  height={100}
+  layout="responsive" />
         </div>
 
     </div>
