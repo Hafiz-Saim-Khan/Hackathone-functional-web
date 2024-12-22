@@ -21,7 +21,7 @@ export const Navbar = () => {
           <img src="logo.jpg" className="h-10 w-20" alt="logo" />
         </section>
         <section className=" md:flex  md:gap-3 Sm:gap-3  text-xs font-medium mb-3">
-          <Link href="/all-product" className="ml-4">Find Store  |</Link>
+          <Link href="/" className="ml-4">Find Store  |</Link>
           <Link href="/Get-Help" className="ml-4">Help |</Link>
           <Link href="/Join-us" className="ml-4">Join us |</Link>
           <Link href="/Login" className="ml-4">Sign In</Link>
