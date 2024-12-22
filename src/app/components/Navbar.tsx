@@ -32,7 +32,7 @@ export const Navbar = () => {
         <SiNike className="h-10 w-16 text-black" />
         
         <div className={`flex gap-6 md:flex ${isOpen ? "flex-col" : "hidden"} md:flex-row mt-4`}>
-          <Link href="/page.tsx" className="font-semibold mb-6">New & Featured</Link>
+          <Link href="/" className="font-semibold mb-6">New & Featured</Link>
           <Link href="/Men-pg" className="font-semibold mb-6">Men</Link>
           <Link href="/all-product" className="font-semibold mb-6">Women</Link>
           <Link href="/all-product" className="font-semibold mb-6">Kids</Link>
