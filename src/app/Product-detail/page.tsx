@@ -11,7 +11,7 @@ const Details = () => {
       <Navbar/>
       <div className="flex gap-32 mb-[200px]"> 
       <section>
-        {/* <img src="detail-pg.png" className="mt-[50px] ml-20" alt="" /> */}
+        {/* <Image src="detail-pg.png" className="mt-[50px] ml-20" alt="" /> */}
         <Image className="h-80 w-80"
   src="/detail-pg.png" 
   alt="Shoes" 

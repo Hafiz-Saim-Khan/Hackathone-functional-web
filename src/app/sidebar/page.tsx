@@ -1,6 +1,4 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import { FaAngleDown } from "react-icons/fa";
 import { FaAngleUp } from "react-icons/fa";
 
 

@@ -6,6 +6,7 @@ import { useState } from "react";
 import { SiNike } from "react-icons/si";
 import { IoIosSearch } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
+import Image from "next/image";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,10 @@ export const Navbar = () => {
     <div>
       <div className="flex justify-between items-center p-4">
         <section>
-          <img src="logo.jpg" className="h-10 w-20" alt="logo" />
+          <Image src="logo.jpg"
+            alt="logo"
+            className="h-10 w-20"
+            />
         </section>
         <section className=" md:flex  md:gap-3 Sm:gap-3  text-xs font-medium mb-3">
           <Link href="/all-product" className="ml-4">Find Store  |</Link>

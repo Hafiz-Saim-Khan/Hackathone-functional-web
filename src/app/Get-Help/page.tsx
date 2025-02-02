@@ -4,6 +4,7 @@ import { IoIosThumbsUp } from "react-icons/io";
 import { BsHandThumbsDownFill } from "react-icons/bs";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 
 
@@ -87,7 +88,7 @@ const Help = () => {
         <section>
     <h1 className="font-semibold ml-8 text-3xl">CONTACT US</h1>
     <section className="text-center">
-        <p className="my-8 ml-20 "><img src="mobile.png" alt="" /></p>
+        <p className="my-8 ml-20 "><Image src="mobile.png" alt="" /></p>
         <p className="font-semibold">000 800 919 0566</p>
         <p>Products & orders 24 hours a day,</p>
         <p>7 days a week</p>
@@ -95,17 +96,17 @@ const Help = () => {
         <p>16:30, Monday - Friday</p>
     </section>
     <section>
-        <p className="ml-20 my-8"><img src="message-.png" alt="" /></p>
+        <p className="ml-20 my-8"><Image src="message-.png" alt="" /></p>
         <p className="font-semibold ml-16">24 hous a day</p>
         <p className="ml-16">7 days a week</p>
     </section>
     <section>
-        <p className="ml-20 my-8"><img src="message.png" alt="" /></p>
+        <p className="ml-20 my-8"><Image src="message.png" alt="" /></p>
         <p className="font-semibold ml-16">We"ll reply with in</p>
         <p className="ml-14">5 buisness days</p>
     </section>
     <section>
-        <p className="ml-20 my-8"><img src="locator.png" alt="" /></p>
+        <p className="ml-20 my-8"><Image src="locator.png" alt="" /></p>
         <p className="font-semibold ml-16">STORE LOCATOR</p>
         <p className="ml-6">Find Nike retail stores near you</p>
     </section>

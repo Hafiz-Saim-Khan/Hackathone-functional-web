@@ -4,7 +4,7 @@ import { SiNike } from "react-icons/si";
 import { IoBagOutline } from "react-icons/io5";
 import { LuMessageSquareText } from "react-icons/lu";
 import { FaLocationPin } from "react-icons/fa6";
-import Image from 'next/image';
+import Image from "next/image"
 
 const Checkout = () => {
   return (
@@ -21,18 +21,24 @@ const Checkout = () => {
         <div className="h-[208px] lg:ml-[300px] ml-5 xl:ml-[300px] w-[440px]" >
         <h1 className="font-semibold">How would you like to get your order?</h1>
             <section className=" text-[#7e7e7e] weight-400 text-[16px] ">
-             <p>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information.</p>
+             <p>Customs regulation for India require a copy of the recipient&apos;s KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. If your KYC does not match your shipping address, please click the link for more information.</p>
              <button className="underline">Learn More</button>            
             </section>
             <div className="h-[82px] my-10 border-2 gap-5 weigth-600 border-black flex items-center pl-5 rounded-lg w-[440px]">
-                <p><img src="deliever-it.png " className="h-6 w-6" alt="Deliever" /></p>
+                <p><Image 
+                src="deliever-it.png "
+                 alt="Deliever"
+                 className="h-6 w-6" 
+                  layout="responsive"
+                  />
+                  </p>
                 <p>Deliver it</p>
             </div>
             {/* SECOND SECTION */}
             <section>
                 <h1 className="weight-500 text-[16px] ">Enter your name and address :</h1>
-                <input type="text"placeholder="First Name" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
-                <input type="text"placeholder="Last Name" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
+                <input type="text"placeholder=" Enter Your First Name" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
+                <input type="text"placeholder="Enter Your Last Name" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
                 <input type="text"placeholder="Address Line 1" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
                 <p className="weight-400 text-[11px] text-[#7e7e7e] ml-8 mt-2 mb-0">We donot ship to P.O boxes</p>
                 <input type="text"placeholder="Address Line 2" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
@@ -55,15 +61,15 @@ const Checkout = () => {
             </section>
             {/* THIRD SECTION */}
             <section>
-                <h1 className="font-semibold my-7 text-[21px]">What's your contact information?</h1>
-                <input type="text"placeholder='Email' className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
+                <h1 className="font-semibold my-7 text-[21px]">What&apos;s your contact information?</h1>
+                <input type="text"placeholder="Email" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
                 <p className="weight-400 text-[11px] text-[#7e7e7e] ml-8 mt-2 mb-0">A confirmation email will be sent after checkout.</p>
                 <input type="text"placeholder="Phone Number" className=" mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] " />
                 <p className="weight-400 text-[11px] text-[#7e7e7e] ml-8 mt-2 mb-0">A carrier might contact you to confirm delivery.</p>
             </section>
                 {/* section 4 */}
             <section>
-            <h1 className="font-semibold my-7 text-[21px]">What's your PAN?</h1>
+            <h1 className="font-semibold my-7 text-[21px]">What&apos;s your PAN?</h1>
             <p className="text-[16px] weight-400 mt-4 rounded-md h-[56px] border-2 border-gray-200 pl-5 w-[440px] p-2" >PAN</p>
             <p className="weight-400 text-[12px] text-[#7e7e7e] ml-8 mt-2 mb-0">Enter your PAN to enable payment with upi,Net Banking or local <br />card methods </p>
             <div className="flex gap-5 text-[#7e7e7e] text-sm mb-20 mt-5"><input type="checkbox" /><p>Save PAN details to Nike Profile</p></div>
@@ -89,7 +95,7 @@ const Checkout = () => {
          {/* RIGHT SECTION */}
          <section>
             <h1 className="font-smibold text-[21px] mb-5">Order Summary</h1>
-            <div className="text-[15px] weight-500 text-[#8d8d8d] flex gap-5 mt-5 mb-2">
+            <div className="text-[15px] font-medium text-[#8d8d8d] flex gap-5 mt-5 mb-2">
               <p>Sub Total</p>
               <p>20 890.00</p>
             </div>
@@ -104,11 +110,17 @@ const Checkout = () => {
             <p className="weight-400 my-3 text-[9px]">(The total reflects the price of your order, including all duties and taxes)</p>
             <h1 className="font-bold mb-4 text-[15px]">Arrives Mon, 27 Mar - Wed, 12 Apr</h1>
             <section className="flex gap-5">
-                <div className="size-[208px]"><img src="banda.jpeg" alt="tea-shirt" /></div>
+                <div className="size-[208px]">
+                  <Image 
+                   src="banda.jpeg"
+                   alt="tea-shirt"
+                   layout="responsve"
+                    />
+                  </div>
                 <div>
                     <p className="weight-500 text-sm">Nike Dri-Fit</p>
                     <p className="weight-500 text-sm">ADV TechKnit</p>
-                    <p className="weight-500 text-sm">Ultra Men's</p>
+                    <p className="weight-500 text-sm">Ultra Men&apos;s</p>
                     <p className="weight-500 text-sm">Short-Sleeve</p>
                     <p className="weight-500 text-sm">Running Top</p>
                     <p className="weight-400 text-[15px] text-[#8d8d8d]">Qty 1</p>
@@ -117,10 +129,10 @@ const Checkout = () => {
                 </div>
             </section>
             <section className="flex  my-9 gap-5">
-                <div className="size-[208px]"><img src="shoes.jpeg" alt="Shoes" /></div>
+                <div className="size-[208px]"><Image src="shoes.jpeg" alt="Shoes" layout="responsive" /></div>
                 <div>
                     <p className="weight-500 text-sm">Nike Air Max</p>
-                    <p className="weight-500 text-sm">97 SE Men's</p>
+                    <p className="weight-500 text-sm">97 SE Men&apos;s</p>
                     <p className="weight-500 text-sm">Shoes</p>
                     <p className="weight-500 text-sm  text-[#8d8d8d]">Qty 1</p>
                     <p className="weight-500 text-sm  text-[#8d8d8d]">Size UK 8</p>
@@ -155,3 +167,4 @@ const Checkout = () => {
 }
 
 export default Checkout
+

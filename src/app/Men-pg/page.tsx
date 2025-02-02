@@ -21,7 +21,7 @@ const Men = () => {
             {/* AB YAHAN AIK DIV BANEGA JISME 3 SECTION HONGE */}
        <div className="md:flex flex-wrap">
          <section className="h-[300px] w-[300px]">
-          {/* <img src="banda.jpeg" alt="Shirt" className="h-[150px] w-[150px]" /> */}
+          {/* <Image src="banda.jpeg" alt="Shirt" className="h-[150px] w-[150px]" /> */}
           <Image className="h-80 w-80"
   src="/banda.jpeg" 
   alt="Shoes" 

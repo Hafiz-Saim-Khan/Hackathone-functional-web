@@ -1,4 +1,4 @@
-    import Image from "next/image";
+import Image from "next/image";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import Footer from "./components/Footer";
@@ -50,7 +50,7 @@ export default function Home () {
           {/*   IMAGE 1 */}
           <div className="gap-2 md:flex flex-wrap">
             <section  className=" lg:w-[300px] h-[320px] sm:h-[510px] md:h-[510px] lg:h-[400px] xl:h-[460px] mx-9 sm:mx-0 md:mx-0 lg:mx-0 xl:mx-0  sm:w-[441px] md:w-[441px]  xl:w-[341px] border-2 bg-gray-50">
-              {/* <img src="/women-shoes.png"  alt="Womens Shoes" className="h-[441px] w-[441px]" /> */}
+              {/* <Image src="/women-shoes.png"  alt="Womens Shoes" className="h-[441px] w-[441px]" /> */}
               <Image className="md:h-[210px] md:w-[200px]"
   src="/women-shoes.png" 
   alt="Shoes" 
@@ -60,14 +60,14 @@ export default function Home () {
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max Pulse</h3>
             <p className=" sm:ml-[250px] ml-20  md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">13 995</p></div>
-            <p className="text-[#757575] weight-400 text-sm">Women's shoes</p>
+            <p className="text-[#757575] weight-400 text-sm">Women"s shoes</p>
             
             </section>
               {/* IMAGE 2 */}
             <div className="gap-2 flex flex-wrap ">
             <section  className=" lg:w-[300px] h-[320px] sm:h-[510px] md:h-[510px] lg:h-[400px] xl:h-[460px] mx-9 sm:mx-0 md:mx-0 lg:mx-0 xl:mx-0  sm:w-[441px] md:w-[441px]  xl:w-[341px] border-2 bg-gray-50">
-              {/* <img src="Mens-shoes.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
-              <Image className='h-80 w-80'
+              {/* <Image src="Mens-shoes.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
+              <Image className="h-80 w-80"
   src="/Mens-shoes.png" 
   alt="Shoes" 
   width={200}
@@ -76,14 +76,14 @@ export default function Home () {
             <div className="flex">
             <h3 className="weight-500 text-[15px] ">Nike Air Max Pulse</h3>
             <p className=" sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">13 995</p></div>
-            <p className="text-[#757575] weight-400 text-sm">Men's shoes</p>
+            <p className="text-[#757575] weight-400 text-sm">Men"s shoes</p>
             
             </section>
             {/* IMAGE 3 */}
             <div className="gap-2 flex">
             <section  className="lg:w-[300px] mx-9 sm:mx-0 md:mx-0 lg:mx-0 xl:mx-0 h-[320px] sm:h-[510px] md:h-[510px] lg:h-[400px] xl:h-[460px] sm:w-[441px] md:w-[441px] xl:w-[341px] border-2 bg-gray-50">
-              {/* <img src="mens-shoes-2.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
-              <Image className='h-80 w-80'
+              {/* <Image src="mens-shoes-2.png" alt="Mens Shoes" className="h-[441px] w-[441px]" /> */}
+              <Image className="h-80 w-80"
   src="/mens-shoes-2.png" 
   alt="Shoes" 
   width={200}
@@ -92,7 +92,7 @@ export default function Home () {
             <div className="flex">
             <h3 className="weight-500 text-[15px]">Nike Air Max 97 SE</h3>
             <p className="sm:ml-[250px] ml-20 md:ml-[250px] lg:ml-[80px] xl:ml-[100px]">16 995</p></div>
-            <p className="text-[#757575] weight-400 text-sm">Men's shoes</p>
+            <p className="text-[#757575] weight-400 text-sm">Men"s shoes</p>
             
             </section>
 
@@ -107,8 +107,8 @@ export default function Home () {
         {/*       HOME PAGE PART THREE */}
         <div className="p-5 mt-20 mb-20">
           <h2 className="weight-500 text-[22px]">Featured</h2>
-          {/* <img src="mens-pic.jpeg" className="w-[1344px] h-[700px] mt-5 mb-20"/> */}
-          <Image className='h-80 w-80'
+          {/* <Image src="mens-pic.jpeg" className="w-[1344px] h-[700px] mt-5 mb-20"/> */}
+          <Image className="h-80 w-80"
   src="/mens-pic.jpeg" 
   alt="Shoes" 
   width={200}
@@ -128,7 +128,7 @@ export default function Home () {
         <section className=" lg:ml-48 lg:gap-10 lg:h-[470px] xl:h-[470px] lg:w-[669px] xl:w-[669px] sm:flex md:flex lg:flex xl:flex  px-5 py-5">
           {/* h-470px w-669px */}
           <div>
-            {/* <img src="tea-shirt-1.png" alt="" /> */}
+            {/* <Image src="tea-shirt-1.png" alt="" /> */}
             <Image 
   src="/tea-shirt-1.png" 
   alt="Shoes" 
@@ -138,12 +138,12 @@ export default function Home () {
           <section className="  flex text-[15px] font-semibold ">
           <h1 className="mt-5 ">Nike Dri FIT ADV TechKnit Ultra</h1><p className="mt-5 ml-5"> 3 895</p></section>
 
-          <p className="text-[#757575] text-[16px] mt-1">Men's Short Sleeve</p>
+          <p className="text-[#757575] text-[16px] mt-1">Men"s Short Sleeve</p>
           <p className="text-[#757575] text-[16px] mb-10 mt-1">Running Top</p>
           </div>
 
           <div>
-            {/* <img src="chadda.png" alt="" /> */}
+            {/* <Image src="chadda.png" alt="" /> */}
             <Image 
   src="/chadda.png" 
   alt="Shoes" 
@@ -153,7 +153,7 @@ export default function Home () {
             <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5 sm:ml-2 md:mt-5 md:ml-10 sm:mt-14">Nike Dri FIT Challenger</h1><p className=" md:mt-5 md:ml-10 mt-5 sm:mt-14 ml-9"> 2 495</p></section>
 
-          <p className="text-[#757575] text-[16px] md:ml-10 mt-1">Men's 18cm (approx) 2-</p>
+          <p className="text-[#757575] text-[16px] md:ml-10 mt-1">Men"s 18cm (approx) 2-</p>
           <p className="text-[#757575] text-[16px] md:ml-10 mt-1">in-1 Versatile Shorts</p>
           
           
@@ -167,8 +167,8 @@ export default function Home () {
         <section className=" lg:ml-48 lg:gap-10 gap-5 lg:h-[470px] xl:h-[470px] lg:w-[669px] xl:w-[669px]  sm:flex md:flex lg:flex xl:flex px-5 py-5">
           
           <div>
-            {/* <img src="female-t-shirt.png" alt="" /> */}
-            <Image className='h-80 w-80'
+            {/* <Image src="female-t-shirt.png" alt="" /> */}
+            <Image className="h-80 w-80"
   src="/female-t-shirt.png" 
   alt="Shoes" 
   width={200}
@@ -177,13 +177,13 @@ export default function Home () {
           <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5">Nike Dri FIT ADV TechKnit Ultra</h1><p className="mt-5 ml-5"> 5 295</p></section>
 
-          <p className="text-[#757575] text-[16px] mt-1">Women's Long  Sleeve</p>
+          <p className="text-[#757575] text-[16px] mt-1">Women"s Long  Sleeve</p>
           <p className="text-[#757575] text-[16px] mb-10 mt-1">Running Top</p>
           </div>
 
           <div>
-            {/* <img src="trowser.png" alt="" /> */}
-            <Image className='h-80 w-80'
+            {/* <Image src="trowser.png" alt="" /> */}
+            <Image className="h-80 w-80"
   src="/trowser.png" 
   alt="Shoes" 
   width={200}
@@ -192,7 +192,7 @@ export default function Home () {
             <section className="flex text-[15px] font-semibold ">
           <h1 className="mt-5 sm:mt-14 md:mt-5 md:ml-6 sm:ml-3">Nike Fast</h1><p className="mt-5 md:mt-5  md:ml-6 sm:mt-14 ml-9"> 3 795</p></section>
 
-          <p className="text-[#757575] text-[16px] md:ml-7 mt-1">Women's Mid-Rise 7/8 Running</p>
+          <p className="text-[#757575] text-[16px] md:ml-7 mt-1">Women"s Mid-Rise 7/8 Running</p>
           <p className="text-[#757575] text-[16px] md:ml-7 mt-1">Legging with Pockets</p>
           
           
@@ -210,10 +210,10 @@ export default function Home () {
 
          {/* HOME PAGE PART 4 */}
     <div className="p-5">
-    <h1 className="text-[22px] weight-500">Don't Miss</h1>
-    {/* <img  className="h-[700px] w-[1344px]" src="part-4-img.png" alt="" /> */}
-    <Image className='h-80 w-80'
-  src="/part-4-img.png" 
+    <h1 className="text-[22px] weight-500">Don"t Miss</h1>
+    {/* <Image  className="h-[700px] w-[1344px]" src="part-4-Image.png" alt="" /> */}
+    <Image className="h-80 w-80"
+  src="/part-4-Image.png" 
   alt="Shoes" 
   width={200}
   height={200}
@@ -233,8 +233,8 @@ export default function Home () {
         <h1 className="text-[23px] weight-600 font-semibold p-5">The Essentials</h1>
         <div  className=" sm:flex md:flex lg:flex xl:flex p-5 gap-10 ml-20">
           <section >
-            {/* <img src="part-5-1.png " className="cursor-pointer" alt="" /> */}
-            <Image className='h-80 w-80 mb-5'
+            {/* <Image src="part-5-1.png " className="cursor-pointer" alt="" /> */}
+            <Image className="h-80 w-80 mb-5"
   src="/part-5-1.png" 
   alt="Shoes" 
   width={200}
@@ -242,8 +242,8 @@ export default function Home () {
   layout="responsive" />
             </section>
           <section >
-            {/* <img src="part-5-2.png " className="cursor-pointer" alt="" /> */}
-            <Image className='h-80 w-80 mb-5'
+            {/* <Image src="part-5-2.png " className="cursor-pointer" alt="" /> */}
+            <Image className="h-80 w-80 mb-5"
   src="/part-5-2.png" 
   alt="Shoes" 
   width={200}
@@ -251,7 +251,8 @@ export default function Home () {
   layout="responsive" />
           </section>
           <section >
-            {/* <img src="part-5-3.png " className="cursor-pointer" alt="" /> */}<Image className='h-80 w-80'
+            {/* <Image src="part-5-3.png " className="cursor-pointer" alt="" /> */}
+<Image className="h-80 w-80"
   src="/part-5-3.png" 
   alt="Shoes" 
   width={200}
@@ -285,11 +286,11 @@ export default function Home () {
           <p className="text-[15px] text-[#757575] mt-2">Shirts & Tops</p>
         </section>
         <section className="ml-[44px]">
-        <h3 className="text-[16px] weight-500 font-semibold">Kids'</h3>
+        <h3 className="text-[16px] weight-500 font-semibold">Kids"</h3>
           <p className="text-[15px] text-[#757575] mt-5">Infant & Toddler Shoes</p>
-          <p className="text-[15px] text-[#757575] mt-2">Kids' Shoes</p>
-          <p className="text-[15px] text-[#757575] mt-2">Kids' Jordan Shoes</p>
-          <p className="text-[15px] text-[#757575] mt-2">Kids' Basketball Shoes</p>
+          <p className="text-[15px] text-[#757575] mt-2">Kids" Shoes</p>
+          <p className="text-[15px] text-[#757575] mt-2">Kids" Jordan Shoes</p>
+          <p className="text-[15px] text-[#757575] mt-2">Kids" Basketball Shoes</p>
         </section>
       </div>
 

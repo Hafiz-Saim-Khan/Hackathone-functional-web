@@ -43,16 +43,15 @@ export default async function Home() {
                     className="h-80 w-80" 
                     src={product.imageUrl} 
                     alt={product.productName} 
-                    width={150} 
-                    height={150} 
-                    layout="responsive" 
+                    width={300}  
+                    height={300} 
                   />
                   <div className="font-weight-500 text-[15px] ml-8">
                     <p className="text-red-500">Just In</p>
                     <p>{product.productName}</p>
                     <p className="text-[#757575]">{product.category}</p>
                     <p className="text-[#757575]">{product.colors} Colour</p>
-                    <p>MRP : {product.price}</p>
+                    <p>MRP: {product.price}</p>
                   </div>
                 
               </Link>
@@ -63,3 +62,4 @@ export default async function Home() {
     </div>
   );
 }
+
