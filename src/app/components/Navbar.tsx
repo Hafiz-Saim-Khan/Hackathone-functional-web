@@ -1,5 +1,3 @@
-
-
 "use client"
 import Link from "next/link";
 import { useState } from "react";
@@ -19,9 +17,11 @@ export const Navbar = () => {
     <div>
       <div className="flex justify-between items-center p-4">
         <section>
-          <Image src="logo.jpg"
+          <Image src="/logo.jpg"
             alt="logo"
             className="h-10 w-20"
+            width={50}
+            height={50}
             />
         </section>
         <section className=" md:flex  md:gap-3 Sm:gap-3  text-xs font-medium mb-3">
