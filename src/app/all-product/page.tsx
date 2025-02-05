@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import { client } from "@/sanity/lib/client";
 
 export interface Hackathone {
-  _id: string;  // Add _id for dynamic routing
   productName: string;
   category: string;
   price: string;
