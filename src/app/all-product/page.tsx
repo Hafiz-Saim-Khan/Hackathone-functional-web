@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Sidebar from "@/app/sidebar/page";
 import Navbar from "../components/Navbar";
 import { client } from "@/sanity/lib/client";
@@ -36,7 +35,6 @@ export default async function Home() {
         <div className="flex gap-16 flex-wrap w-screen">
           {data.map((product, index) => (
             <section key={index} className="w-[300px] h-[430px] bg-gray-100 border-2 border-gray-200 rounded-lg">
-              <Link href={`/products/${product._id}`}> {/* Pass the product's unique _id for routing */}
                 
                   <Image 
                     className="h-80 w-80" 
@@ -53,7 +51,7 @@ export default async function Home() {
                     <p>MRP: {product.price}</p>
                   </div>
                 
-              </Link>
+              
             </section>
           ))}
         </div>
