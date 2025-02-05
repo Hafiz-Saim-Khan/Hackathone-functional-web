@@ -17,8 +17,7 @@ export interface Hackathone {
 }
 
 export default async function Home() {
-  const data: Hackathone[] = await client.fetch(`*[_type == "product"]{
-    _id,  // Fetching the unique product ID for routing
+  const data: Hackathone[] = await client.fetch(`*[_type == "product" ]{ 
     productName,
     category,
     price,

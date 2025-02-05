@@ -1,3 +1,4 @@
+
 export const productSchema = {
     name: "product",
     title: "Product",
@@ -47,5 +48,6 @@ export const productSchema = {
         title: "Description",
         type: "text",
       },
+    
     ],
   }
